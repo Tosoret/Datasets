@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 40
+names: ['Acura', 'Audi', 'BMW', 'BUGATTI', 'Chevrolet', 'FORD', 'Ford', 'Honda', 'Hyundai', 'ISUZU', 'Infiniti', 'KIA', 'Lamborghini', 'Lexus', 'MAZDA', 'MITSUBISHI', 'Mazda', 'MercedesBenz', 'NISSAN', 'Nissan', 'Perodua', 'Porsche', 'Proton', 'TOYOTA', 'Tesla', 'Toyota', 'Volkswagen', 'audi', 'benz', 'daewoo', 'ford', 'honda', 'hyundai', 'man', 'mazda', 'mclaren', 'scania', 'toyota', 'volkswagen', 'volvo']
+
+roboflow:
+  workspace: atef
+  project: logo-master
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/atef/logo-master/dataset/3
